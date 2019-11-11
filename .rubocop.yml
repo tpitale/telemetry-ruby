@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  Exclude:
+    - bin/*
+Documentation:
+  Enabled: true
+
+Metrics/MethodLength:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/BlockNesting:
+  Max: 3
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+Layout/IndentFirstArrayElement:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+Style/BracesAroundHashParameters:
+  Enabled: false
